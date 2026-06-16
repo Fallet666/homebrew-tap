@@ -1,6 +1,6 @@
 cask "vent" do
   version "1.2.0"
-  sha256 "caf7bcaf0ff7f7e3fcf202752637e625cbe0cef9ce89152e2b9f486556132de4"
+  sha256 "3b5be6e56fbe2cd3c3230590c19911b596e030ddbfe42bf62e9bcf6899dbaa52"
 
   url "https://github.com/Fallet666/vent/releases/download/v#{version}/Vent-#{version}.dmg"
   name "Vent"
@@ -20,6 +20,7 @@ cask "vent" do
 
   zap trash: [
     "~/Library/Preferences/dev.borninvoid.macfancontrol.plist",
+    "~/Library/Saved Application State/dev.borninvoid.macfancontrol.savedState",
   ]
 
   caveats <<~EOS
