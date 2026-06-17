@@ -1,6 +1,6 @@
 cask "vent" do
-  version "1.2.1"
-  sha256 "ba71c2247a4882d562caa6fa8256753864dc5c789259ea8099d40d0299bec09d"
+  version "1.2.2"
+  sha256 "c6960ab9d11d356d4f5fee431bdb343209f33342fd54eee853e018f4540d9621"
 
   url "https://github.com/Fallet666/vent/releases/download/v#{version}/Vent-#{version}.dmg"
   name "Vent"
